@@ -1,9 +1,3 @@
-/*
- * kernelcode.c
- *
- *  Created on: 05/05/2014
- *      Author: utnso
- */
 
 #include <pthread.h>
 #include <stdio.h>
@@ -81,7 +75,7 @@ typedef struct proceso_colaBlock {
 } colaBlock_t;
 
 typedef struct proceso_es {
-	pcb_t *pcb;
+	pcb_t pcb;
 	int instantes;
 
 } procesoES_t;
@@ -96,7 +90,6 @@ int enviarDatos(int sock, int base, int offset, int tamanio, void *buffer);
 pcb_t *crearPCB(int socketPrograma, int socketUmv, t_metadata_program *metadataCodigo, char *codigoLiteral);
 void rechazarPrograma();
 void borrarPCB(int socketUmv, int pid);
-void actualizarColas();
 void pasarReady();
 void enviaraCPU(int socket_cpu);
 void revisarCPUvacios();
@@ -104,7 +97,6 @@ void imprimirColas();
 int lugaresProgramasPCP();
 int detectarColaDispositivo(char* dispositivo);
 int tamanioVectorChar(char **vec);
-int *array_a_int(char** array);
 int obtenerPosicionEnArrayString(char* elemento, char** array);
 int obtenerSockProgPorCpu(int cpu);
 int detectarIndiceProcesoBloqueado(pcb_t* pcb);
@@ -118,6 +110,9 @@ int buscarEnExit(int socketProg);
 void sacarDeES(int pid);
 void sacarDeSEM(int pid);
 void sacarCPUDeVacios(int cpu);
+void imprimirTextoEnProg(char* texto, int socketPrograma, int tamanio);
+void enviarOrdenFinalizarProg(int socketPrograma);
+void agregarCpuVacio(int sockCpu);
 
 t_metadata_program *metadataCodigo;
 pcb_t *pcb_proceso;
@@ -250,8 +245,6 @@ void configurarKernel(char **config) {
 
 	t_config *kernelConfig = config_create(config[1]);
 
-	//dispositivos_ES = malloc(sizeof(aux));
-
 	puertoProg = obtenerValoresConfiguracion("PUERTO_PROG", kernelConfig);
 	puertoCpu = obtenerValoresConfiguracion("PUERTO_CPU", kernelConfig);
 	puertoUmv = obtenerValoresConfiguracion("PUERTO_UMV", kernelConfig);
@@ -264,11 +257,16 @@ void configurarKernel(char **config) {
 	dispositivos_ES = string_get_string_as_array(obtenerValoresConfiguracion("ID_HIO", kernelConfig));
 	tiempos_ES = string_get_string_as_array(obtenerValoresConfiguracion("TIEMPOS_HIO", kernelConfig));
 	semaforos = string_get_string_as_array(obtenerValoresConfiguracion("SEMAFOROS", kernelConfig));
-	valores_semaforos = array_a_int(string_get_string_as_array(obtenerValoresConfiguracion("VALOR_SEMAFORO", kernelConfig)));
+	valores_semaforos = malloc(sizeof(int) * tamanioVectorChar(semaforos));
+	char** aux_valores_semaforos = string_get_string_as_array(obtenerValoresConfiguracion("VALOR_SEMAFORO", kernelConfig));
+	int i;
+	for (i = 0; i < tamanioVectorChar(semaforos); i++) {
+		valores_semaforos[i] = atoi(aux_valores_semaforos[i]);
+	}
 
 	variables_globales = string_get_string_as_array(obtenerValoresConfiguracion("VARIABLES_GLOBALES", kernelConfig));
 	valores_globales = malloc(sizeof(int) * tamanioVectorChar(variables_globales));
-	int i;
+
 	for (i = 0; i < tamanioVectorChar(variables_globales); i++) {
 		valores_globales[i] = 0;
 	}
@@ -318,15 +316,20 @@ void *plp(void *param) {
 				}
 				else {
 
-					char *permiso = malloc(sizeof(char) * 4);
+					cabecera_t* cabecera = malloc(sizeof(cabecera_t));
 
-					int status = recv(i, (void*) permiso, PACKAGESIZE, 0);
+					int status = recv(i, cabecera, sizeof(cabecera_t), 0);
 
-					if (strcmp(permiso, "OKK") == 0) {
-						char *mensaje = "OK";
-						send(i, mensaje, sizeof("OK"), 0);
+					switch (cabecera->identificador) {
+
+					case Kernel_Request: {
+						cabecera->identificador = Programa_OK;
+						send(i, cabecera, sizeof(cabecera_t), 0);
+						break;
+					}
 
 					}
+					free(cabecera);
 
 					if (status != 0) {
 						int tamanio;
@@ -385,7 +388,9 @@ void *plp(void *param) {
 			}
 
 		}
-		actualizarColas();
+		pasarReady();
+		revisarCPUvacios();
+		imprimirColas();
 
 	}
 	close(info->socketUmv);
@@ -458,18 +463,25 @@ void *pcp(void *param) {
 						puts("RECIBE QUANTUM CUMPLIDO");
 
 						if (list_size(cola_ready) > 0) {
+
 							pcb_t *pcb_saliente = malloc(sizeof(pcb_t));
 
 							sacarDeExec(obtenerSockProgPorCpu(i));
+							puts("Antes de recibir el pcb saliente");
+
+							puts("Despues de recibir el pcb slaiente");
+
+
+
 							enviaraCPU(i); //Envia el nuevo PCB
 
 							recv(i, pcb_saliente, sizeof(pcb_t), 0);
 							list_add(cola_ready, pcb_saliente);
-
 							imprimirColas();
 
 						}
 						else {
+
 							cabecera.identificador = CPU_Continuar;
 							send(i, &cabecera, sizeof(cabecera_t), 0);
 							puts("Envia continuar");
@@ -478,14 +490,12 @@ void *pcp(void *param) {
 
 					case Id_ProgramaFinalizado:
 						if (status > 0) {
-							cabecera_t* cabecera = malloc(sizeof(cabecera_t));
 
 							pcb_t *pcb_saliente = malloc(sizeof(pcb_t));
 							recv(i, pcb_saliente, sizeof(pcb_t), 0);
 
-							cabecera->identificador = Programa_Finalizar;
-							send(pcb_saliente->sock, cabecera, sizeof(cabecera_t), 0);
-
+							enviarOrdenFinalizarProg(pcb_saliente->sock);
+							sacarDeExec(pcb_saliente->sock);
 							borrarPCB(info->socketUmv, pcb_saliente->pid);
 							list_add(cola_exit, pcb_saliente);
 
@@ -495,14 +505,10 @@ void *pcp(void *param) {
 
 							}
 							else {
-								int* auxSock = malloc(sizeof(int));
-								*auxSock = i;
-
-								list_add(CPU_vacio, auxSock);
-								imprimirColas();
+								agregarCpuVacio(i);
 
 							}
-							free(cabecera);
+
 						}
 						break;
 
@@ -528,6 +534,7 @@ void *pcp(void *param) {
 						break;
 					}
 					case Kernel_Imprimir: {
+
 						t_valor_variable *valor_variable = malloc(sizeof(t_valor_variable));
 						recv(i, valor_variable, sizeof(t_valor_variable), 0);
 						int *sockPrograma = malloc(sizeof(int));
@@ -537,6 +544,7 @@ void *pcp(void *param) {
 						cabecera->identificador = Programa_Imprimir;
 						send(*sockPrograma, cabecera, sizeof(cabecera_t), 0);
 						send(*sockPrograma, valor_variable, sizeof(int), 0);
+
 						free(sockPrograma);
 						free(cabecera);
 						break;
@@ -549,44 +557,52 @@ void *pcp(void *param) {
 						void *buffer = malloc(*tamanio);
 						recv(i, sockPrograma, sizeof(int), 0);
 						recv(i, buffer, *tamanio, 0);
-						((char *) buffer)[*tamanio] = 0;
+						((char *) buffer)[*tamanio - 1] = 0;
 
-						cabecera_t* cabecera = malloc(sizeof(cabecera_t));
-						cabecera->identificador = Programa_ImprimirTexto;
-						send(*sockPrograma, cabecera, sizeof(cabecera_t), 0);
-						send(*sockPrograma, (void*) tamanio, sizeof(int), 0);
-						send(*sockPrograma, (void*) buffer, *tamanio, 0);
+						imprimirTextoEnProg(buffer, *sockPrograma, *tamanio);
 						free(sockPrograma);
 						free(tamanio);
-						free(cabecera);
+
 						break;
 					}
 					case Kernel_EntradaSalida: {
+
 						pcb_t *pcb_saliente = malloc(sizeof(pcb_t));
-						procesoES_t procesoES;
+						procesoES_t* procesoES = malloc(sizeof(procesoES_t));
 						int tamanioTipoES;
 						int instantes;
-						recv(i, &pcb_saliente, sizeof(pcb_t), 0);
+						recv(i, pcb_saliente, sizeof(pcb_t), 0);
 						recv(i, &tamanioTipoES, sizeof(int), 0);
 
 						char *tipoES = malloc(tamanioTipoES);
 						recv(i, tipoES, tamanioTipoES, 0);
 						recv(i, &instantes, sizeof(int), 0);
-						procesoES.pcb = pcb_saliente;
-						procesoES.instantes = instantes;
+						procesoES->pcb = *pcb_saliente;
+						procesoES->instantes = instantes;
 
 						int disp = detectarColaDispositivo(tipoES);
-						puts("Antes de mandar a cola es");
+
 						sacarDeExec(obtenerSockProgPorCpu(i));
-						colaBlock_t procesoBlock;
-						procesoBlock.pcb = *pcb_saliente;
-						procesoBlock.bloqueado = tipoES;
-						list_add(cola_block, &procesoBlock);
-						list_add(list_get(cola_es, disp), &procesoES);
-						puts("despues de mandar a cola es");
+
+						colaBlock_t* procesoBlock = malloc(sizeof(colaBlock_t));
+
+						procesoBlock->pcb = *pcb_saliente;
+
+						procesoBlock->bloqueado = tipoES;
+
+						list_add(cola_block, procesoBlock);
+
+						list_add(list_get(cola_es, disp), procesoES);
+
 						if (list_size(cola_ready) > 0) {
 
-							enviaraCPU(i); //Envia el nuevo PCB
+							enviaraCPU(i); //Envia el nuevo PCB e imprime colas
+
+
+						}
+						else {
+							agregarCpuVacio(i);
+
 						}
 						imprimirColas();
 						free(pcb_saliente);
@@ -598,10 +614,12 @@ void *pcp(void *param) {
 						recv(i, &tamanio, sizeof(int), 0);
 						char* sem = malloc(tamanio);
 						recv(i, sem, tamanio, 0);
+						printf("%s \n", sem);
 
 						pos = obtenerPosicionEnArrayString(sem, semaforos);
 						free(sem);
 						valores_semaforos[pos]++;
+						printf("SIGNAL semaforo %s : %d \n", semaforos[pos], valores_semaforos[pos]);
 						if (valores_semaforos[pos] <= 0) {
 							list_add(cola_ready, list_get(list_get(cola_sem, pos), 0));
 							list_remove(cola_block, detectarIndiceProcesoBloqueado(list_get(list_get(cola_sem, pos), 0)));
@@ -616,18 +634,29 @@ void *pcp(void *param) {
 						recv(i, &tamanio, sizeof(int), 0);
 						char* sem = malloc(tamanio);
 						recv(i, sem, tamanio, 0);
-
+						puts("asd");
 						pos = obtenerPosicionEnArrayString(sem, semaforos);
+						printf("%s \n", sem);
 						free(sem);
+
 						valores_semaforos[pos]--;
-						if (valores_semaforos[pos] < 0) {
+						printf("WAIT semaforo %s : %d \n", semaforos[pos], valores_semaforos[pos]);
+						if (valores_semaforos[pos] < 0) { //Si se bloquea
+
 							sacarDeExec(obtenerSockProgPorCpu(i));
-							colaBlock_t procBloqueado;
-							//procBloqueado.pcb = cortarEjecucion(i);
-							procBloqueado.bloqueado = semaforos[pos];
-							list_add(cola_block, &procBloqueado);
-							list_add(list_get(cola_sem, pos), &procBloqueado.pcb);
+							colaBlock_t* procBloqueado = malloc(sizeof(colaBlock_t));
+							procBloqueado->pcb = cortarEjecucion(i);
+							procBloqueado->bloqueado = semaforos[pos];
+							agregarCpuVacio(i);
+							list_add(cola_block, procBloqueado);
+							list_add(list_get(cola_sem, pos), &procBloqueado->pcb);
 							imprimirColas();
+						}
+						else {
+							cabecera_t* cabecera = malloc(sizeof(cabecera_t));
+							cabecera->identificador = CPU_Continuar;
+							send(i, cabecera, sizeof(cabecera_t), 0);
+
 						}
 
 						break;
@@ -648,15 +677,18 @@ void *pcp(void *param) {
 						sacarCPUDeVacios(i);
 						int socketProg = obtenerSockProgPorCpu(i);
 						if (socketProg > 0) {
-							send(socketProg, "****Cpu desconectado durante ejecucion****", sizeof("****Cpu desconectado durante ejecucion****"), 0);
-							send(socketProg, "FIN", sizeof("FIN"), 0);
+							imprimirTextoEnProg("****Cpu desconectado durante ejecucion****", socketProg, sizeof("****Cpu desconectado durante ejecucion****"));
+
+							enviarOrdenFinalizarProg(socketProg);
 						}
 					}
 
 				}
 			}
 
-		actualizarColas(); //Les manda procesos a los cpu al pedo.
+		pasarReady();
+		revisarCPUvacios();
+		imprimirColas();
 
 	}
 	close(info->listenningSocket);
@@ -667,15 +699,21 @@ void *HIO(void *param) {
 
 	param_hiloES *info = (param_hiloES *) param;
 
-	printf("%s %d %d \n", info->dispositivo, info->cola, info->retardoDisp);
-
 	while (true) {
 		while (list_size(list_get(cola_es, info->cola)) > 0) {
+
 			procesoES_t* aux = list_get(list_get(cola_es, info->cola), 0);
+
 			usleep(info->retardoDisp * 1000 * aux->instantes); // *1000 porque usleep trabaja en microsegundos. y el retardo esta en milisegundos.
-			list_add(cola_ready, aux->pcb); //Manda el pcb a ready devuelta
+
+			list_add(cola_ready, &(aux->pcb)); //Manda el pcb a ready devuelta
+
 			list_remove(list_get(cola_es, info->cola), 0);
-			list_remove(cola_block, detectarIndiceProcesoBloqueado(aux->pcb));
+
+			list_remove(cola_block, detectarIndiceProcesoBloqueado(&(aux->pcb)));
+
+			imprimirColas();
+			revisarCPUvacios();
 			imprimirColas();
 
 		}
@@ -762,7 +800,7 @@ pcb_t *crearPCB(int socketPrograma, int socketUmv, t_metadata_program *metadataC
 
 	}
 
-	if (metadataCodigo->cantidad_de_etiquetas > 0) {
+	if (metadataCodigo->cantidad_de_etiquetas > 0 || metadataCodigo->cantidad_de_funciones > 0) {
 		base = crearSegmento(socketUmv, pcb_proceso->pid, metadataCodigo->etiquetas_size);
 
 		if (base >= 0) { //Si se creo el segmento, envia y guarda.
@@ -826,23 +864,19 @@ pcb_t *crearPCB(int socketPrograma, int socketUmv, t_metadata_program *metadataC
 }
 void rechazarPrograma(int socketPrograma, int socketUmv, int pid) {
 	borrarPCB(socketUmv, pid);
-	send(socketPrograma, "Rechazado", sizeof("Rechazado"), 0);
-	send(socketPrograma, "FIN", sizeof("FIN"), 0);
+	imprimirTextoEnProg("Rechazado", socketPrograma, sizeof("Rechazado"));
+	enviarOrdenFinalizarProg(socketPrograma);
 
-	puts("Un programa ha sido rechazado.");
-}
-
-void actualizarColas() {
-
-	pasarReady();
-	revisarCPUvacios();
 }
 
 void pasarReady() {
 	bool imprimir = false;
 	while (lugaresProgramasPCP() > 0 && list_size(cola_new) > 0) {
 		colaNew_t *aux = list_get(cola_new, 0);
-		list_add(cola_ready, &aux->pcb);
+		pcb_t * auxPcb = malloc(sizeof(pcb_t));
+		*auxPcb = aux->pcb;
+		free(aux);
+		list_add(cola_ready, auxPcb);
 		list_remove(cola_new, 0);
 		imprimir = true;
 	}
@@ -865,7 +899,6 @@ void enviaraCPU(int socket_cpu) {
 	prog->cpu = socket_cpu;
 	list_add(cola_exec, prog);
 	list_remove(cola_ready, 0);
-	imprimirColas();
 
 }
 void revisarCPUvacios() {
@@ -951,20 +984,10 @@ int tamanioVectorChar(char **vec) {
 	}
 	return i;
 }
-int *array_a_int(char** array) {
 
-	int *aux = malloc(sizeof(int) * tamanioVectorChar(array));
-	int i;
-	for (i = 0; array[i] != NULL ; i++) {
-
-		aux[i] = atoi(array[i]);
-
-	}
-	return aux;
-}
 int obtenerPosicionEnArrayString(char* elemento, char** array) {
 	int i = 0;
-	while (array[i] != NULL ) {
+	while (i < tamanioVectorChar(array)) {
 		if (string_equals_ignore_case(elemento, array[i])) {
 			return i;
 		}
@@ -984,7 +1007,7 @@ int obtenerSockProgPorCpu(int cpu) {
 		i++;
 	}
 	return -1;
-	//free(aux);
+//free(aux);
 
 }
 int detectarIndiceProcesoBloqueado(pcb_t* pcb) {
@@ -1017,7 +1040,7 @@ void quitarDeColas(int socketProg, int socketUmv) {
 		}
 
 	}
-	printf("%d \n", pid);
+	printf("Cerrado P%d \n", pid);
 	if (pid > 0) {
 		borrarPCB(socketUmv, pid);
 	}
@@ -1035,7 +1058,7 @@ int sacarDeNew(int socketProg) {
 		}
 
 	}
-	free(aux);
+	//free(aux);
 	return -1;
 }
 int sacarDeReady(int socketProg) {
@@ -1050,7 +1073,7 @@ int sacarDeReady(int socketProg) {
 		}
 
 	}
-	free(aux);
+	//free(aux);  SI METO ESTE FREE, CUANDO METO 1 PROGRAMA Y DESPUES METO OTRO QUE LO RECHAZA, EL QUE ESTABA EN READY FLASHEA MIERDA Y QUEDA EN P0
 	return -1;
 }
 int sacarDeBlock(int socketProg) {
@@ -1068,7 +1091,7 @@ int sacarDeBlock(int socketProg) {
 		sacarDeES(pid);
 		sacarDeSEM(pid);
 	}
-	free(aux);
+	//free(aux);
 	return pid;
 
 }
@@ -1084,7 +1107,7 @@ int sacarDeExec(int socketProg) {
 		}
 
 	}
-	free(aux);
+	//free(aux);
 	return -1;
 }
 int buscarEnExit(int socketProg) {
@@ -1099,7 +1122,7 @@ int buscarEnExit(int socketProg) {
 		}
 
 	}
-	free(aux);
+	//free(aux);
 	return -1;
 }
 void sacarDeES(int pid) {
@@ -1110,7 +1133,7 @@ void sacarDeES(int pid) {
 		auxi = list_get(cola_es, i);
 		for (j = 0; j < list_size(auxi); j++) {
 			auxj = list_get(auxi, j);
-			if (auxj->pcb->pid == pid) {
+			if (auxj->pcb.pid == pid) {
 				list_remove(auxi, j);
 				j--; //Resta porque cuando hace remove, se acorta la lista.
 			}
@@ -1145,8 +1168,32 @@ void sacarCPUDeVacios(int cpu) {
 
 	}
 }
-/*pcb_t cortarEjecucion(int cpu) {
+pcb_t cortarEjecucion(int cpu) {
+	cabecera_t* cabecera = malloc(sizeof(cabecera_t));
+	cabecera->identificador = CPU_Interrumpir;
+	send(cpu, cabecera, sizeof(cabecera_t), 0);
+	pcb_t pcb;
+	recv(cpu, &pcb, sizeof(pcb_t), 0);
+	return pcb;
+}
+void imprimirTextoEnProg(char* texto, int sockPrograma, int tamanio) {
+	cabecera_t* cabecera = malloc(sizeof(cabecera_t));
+	cabecera->identificador = Programa_ImprimirTexto;
+	send(sockPrograma, cabecera, sizeof(cabecera_t), 0);
+	send(sockPrograma, &tamanio, sizeof(int), 0);
+	send(sockPrograma, texto, tamanio, 0);
+	free(cabecera);
 
+}
+void enviarOrdenFinalizarProg(int sockPrograma) {
+	cabecera_t* cabecera = malloc(sizeof(cabecera_t));
+	cabecera->identificador = Programa_Finalizar;
+	send(sockPrograma, cabecera, sizeof(cabecera_t), 0);
+	free(cabecera);
+}
+void agregarCpuVacio(int sockCpu) {
+	int* aux_sockCpu = malloc(sizeof(int));
+	*aux_sockCpu = sockCpu;
+	list_add(CPU_vacio, aux_sockCpu);
 
- }*/
-
+}
