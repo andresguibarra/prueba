@@ -1,0 +1,14 @@
+cd
+git clone https://github.com/sisoputnfrba/so-commons-library
+cd so-commons-library
+make clean
+make all
+sudo make install
+cd
+git clone https://github.com/sisoputnfrba/ansisop-parser
+cd
+cd ansisop-parser/parser
+make clean
+make all
+sudo make install
+

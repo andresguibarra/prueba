@@ -1,0 +1,7 @@
+#!./procesoPrograma
+
+begin
+	!A = 2
+	print !compartida
+	print !A
+end

@@ -1,0 +1,15 @@
+Pasos:
+
+1) git pull
+
+ modificar ......
+ 
+2) git add /directorio
+
+3) git commit -m 'mensaje'
+
+4) git pull 
+
+if (todo bien!)
+
+5) git push

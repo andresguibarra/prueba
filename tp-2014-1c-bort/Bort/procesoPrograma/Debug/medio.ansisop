@@ -1,0 +1,13 @@
+#!./procesoPrograma
+
+begin
+	wait SEM1
+	!A = 3
+	variables z,m
+	z = 10
+	m = 5
+	z = 20 + 12
+        print !A
+	m=z+2
+	signal SEM2
+end

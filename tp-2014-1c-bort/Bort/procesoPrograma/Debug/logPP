@@ -1,0 +1,697 @@
+[TRACE] 00:00:25:158 logPP/(22544:22544): Se inicia el Proceso Programa
+[ERROR] 00:00:25:167 logPP/(22544:22544): No se ha podido conectar con el Kernel. PROCESS ABORTED
+[TRACE] 00:05:14:374 logPP/(22823:22823): Se inicia el Proceso Programa
+[ERROR] 00:05:14:381 logPP/(22823:22823): No se ha podido conectar con el Kernel. PROCESS ABORTED
+[TRACE] 00:17:54:383 logPP/(23127:23127): Se inicia el Proceso Programa
+[TRACE] 00:17:54:388 logPP/(23127:23127): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:17:54:388 logPP/(23127:23127): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:17:54:388 logPP/(23127:23127): Se envia el codigo al Kernel
+[TRACE] 00:17:54:388 logPP/(23127:23127): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 00:17:54:388 logPP/(23127:23127): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:17:54:388 logPP/(23127:23127): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:19:07:605 logPP/(23260:23260): Se inicia el Proceso Programa
+[TRACE] 00:19:07:609 logPP/(23260:23260): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:19:07:609 logPP/(23260:23260): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:19:07:609 logPP/(23260:23260): Se envia el codigo al Kernel
+[TRACE] 00:19:07:609 logPP/(23260:23260): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:19:07:609 logPP/(23260:23260): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:19:07:609 logPP/(23260:23260): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:19:33:865 logPP/(23262:23262): Se inicia el Proceso Programa
+[TRACE] 00:19:33:868 logPP/(23262:23262): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:19:33:868 logPP/(23262:23262): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:19:33:868 logPP/(23262:23262): Se envia el codigo al Kernel
+[TRACE] 00:19:33:868 logPP/(23262:23262): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:19:33:868 logPP/(23262:23262): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:19:33:868 logPP/(23262:23262): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:20:19:354 logPP/(23399:23399): Se inicia el Proceso Programa
+[TRACE] 00:20:19:361 logPP/(23399:23399): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:20:19:361 logPP/(23399:23399): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:20:19:361 logPP/(23399:23399): Se envia el codigo al Kernel
+[TRACE] 00:20:19:361 logPP/(23399:23399): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:20:19:361 logPP/(23399:23399): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:20:19:361 logPP/(23399:23399): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:20:27:450 logPP/(23466:23466): Se inicia el Proceso Programa
+[TRACE] 00:20:27:456 logPP/(23466:23466): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:20:27:456 logPP/(23466:23466): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:20:27:456 logPP/(23466:23466): Se envia el codigo al Kernel
+[TRACE] 00:20:27:456 logPP/(23466:23466): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:20:27:456 logPP/(23466:23466): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:20:27:456 logPP/(23466:23466): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:21:11:236 logPP/(23602:23602): Se inicia el Proceso Programa
+[TRACE] 00:21:11:238 logPP/(23602:23602): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:21:11:238 logPP/(23602:23602): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:21:11:238 logPP/(23602:23602): Se envia el codigo al Kernel
+[TRACE] 00:21:11:238 logPP/(23602:23602): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:21:11:238 logPP/(23602:23602): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:21:11:238 logPP/(23602:23602): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:21:15:954 logPP/(23670:23670): Se inicia el Proceso Programa
+[TRACE] 00:21:15:960 logPP/(23670:23670): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:21:15:961 logPP/(23670:23670): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:21:15:961 logPP/(23670:23670): Se envia el codigo al Kernel
+[TRACE] 00:21:15:961 logPP/(23670:23670): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:21:15:961 logPP/(23670:23670): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:21:15:961 logPP/(23670:23670): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:22:02:945 logPP/(23808:23808): Se inicia el Proceso Programa
+[TRACE] 00:22:02:946 logPP/(23808:23808): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:22:02:946 logPP/(23808:23808): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:22:02:946 logPP/(23808:23808): Se envia el codigo al Kernel
+[TRACE] 00:22:02:946 logPP/(23808:23808): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:22:02:946 logPP/(23808:23808): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:22:02:946 logPP/(23808:23808): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:22:55:438 logPP/(24147:24147): Se inicia el Proceso Programa
+[ERROR] 00:22:55:444 logPP/(24147:24147): No se ha podido conectar con el Kernel. PROCESS ABORTED
+[TRACE] 00:23:45:558 logPP/(24351:24351): Se inicia el Proceso Programa
+[TRACE] 00:23:45:560 logPP/(24351:24351): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:23:45:560 logPP/(24351:24351): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:23:45:560 logPP/(24351:24351): Se envia el codigo al Kernel
+[TRACE] 00:23:45:560 logPP/(24351:24351): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:23:45:560 logPP/(24351:24351): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:23:45:560 logPP/(24351:24351): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:23:52:644 logPP/(24423:24423): Se inicia el Proceso Programa
+[TRACE] 00:23:52:645 logPP/(24423:24423): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:23:52:645 logPP/(24423:24423): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:23:52:645 logPP/(24423:24423): Se envia el codigo al Kernel
+[TRACE] 00:23:52:646 logPP/(24423:24423): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:23:52:646 logPP/(24423:24423): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:23:52:646 logPP/(24423:24423): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:25:38:893 logPP/(24639:24639): Se inicia el Proceso Programa
+[TRACE] 00:25:38:899 logPP/(24639:24639): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:25:38:899 logPP/(24639:24639): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:25:38:900 logPP/(24639:24639): Se envia el codigo al Kernel
+[TRACE] 00:25:38:900 logPP/(24639:24639): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:25:38:900 logPP/(24639:24639): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:25:38:900 logPP/(24639:24639): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:27:58:521 logPP/(24911:24911): Se inicia el Proceso Programa
+[TRACE] 00:27:58:522 logPP/(24911:24911): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:27:58:522 logPP/(24911:24911): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:27:58:522 logPP/(24911:24911): Se envia el codigo al Kernel
+[TRACE] 00:27:58:522 logPP/(24911:24911): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:27:58:522 logPP/(24911:24911): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:27:58:522 logPP/(24911:24911): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:33:04:59 logPP/(25155:25155): Se inicia el Proceso Programa
+[TRACE] 00:33:04:63 logPP/(25155:25155): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:33:04:63 logPP/(25155:25155): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:33:04:63 logPP/(25155:25155): Se envia el codigo al Kernel
+[TRACE] 00:33:04:63 logPP/(25155:25155): El codigo se envio exitosamente. Tamaño = 310 bytes
+[INFO] 00:33:04:63 logPP/(25155:25155): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:33:04:63 logPP/(25155:25155): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:39:53:985 logPP/(25488:25488): Se inicia el Proceso Programa
+[TRACE] 00:39:53:986 logPP/(25488:25488): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:39:53:986 logPP/(25488:25488): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:39:53:986 logPP/(25488:25488): Se envia el codigo al Kernel
+[TRACE] 00:39:53:986 logPP/(25488:25488): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:39:53:986 logPP/(25488:25488): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:39:53:986 logPP/(25488:25488): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:40:15:223 logPP/(25556:25556): Se inicia el Proceso Programa
+[TRACE] 00:40:15:228 logPP/(25556:25556): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:40:15:228 logPP/(25556:25556): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:40:15:228 logPP/(25556:25556): Se envia el codigo al Kernel
+[TRACE] 00:40:15:228 logPP/(25556:25556): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 00:40:15:228 logPP/(25556:25556): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:40:15:228 logPP/(25556:25556): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:43:15:54 logPP/(25703:25703): Se inicia el Proceso Programa
+[TRACE] 00:43:15:54 logPP/(25703:25703): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:43:15:54 logPP/(25703:25703): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:43:15:54 logPP/(25703:25703): Se envia el codigo al Kernel
+[TRACE] 00:43:15:55 logPP/(25703:25703): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:43:15:55 logPP/(25703:25703): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:43:15:55 logPP/(25703:25703): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:46:01:172 logPP/(25845:25845): Se inicia el Proceso Programa
+[TRACE] 00:46:01:173 logPP/(25845:25845): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:46:01:173 logPP/(25845:25845): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:46:01:173 logPP/(25845:25845): Se envia el codigo al Kernel
+[TRACE] 00:46:01:173 logPP/(25845:25845): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:46:01:173 logPP/(25845:25845): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:46:01:173 logPP/(25845:25845): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 00:53:34:173 logPP/(26276:26276): Se inicia el Proceso Programa
+[TRACE] 00:53:34:175 logPP/(26276:26276): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 00:53:34:175 logPP/(26276:26276): Se pide permiso para enviar codigo al Kernel
+[TRACE] 00:53:34:175 logPP/(26276:26276): Se envia el codigo al Kernel
+[TRACE] 00:53:34:175 logPP/(26276:26276): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 00:53:34:175 logPP/(26276:26276): Se envio el codigo, a la espera de impresiones
+[WARNING] 00:53:34:175 logPP/(26276:26276): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 01:04:34:438 logPP/(26844:26844): Se inicia el Proceso Programa
+[TRACE] 01:04:34:443 logPP/(26844:26844): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:04:34:443 logPP/(26844:26844): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:04:34:443 logPP/(26844:26844): Se envia el codigo al Kernel
+[TRACE] 01:04:34:443 logPP/(26844:26844): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 01:04:34:443 logPP/(26844:26844): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:04:34:443 logPP/(26844:26844): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 01:06:26:365 logPP/(27180:27180): Se inicia el Proceso Programa
+[TRACE] 01:06:26:372 logPP/(27180:27180): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:06:26:372 logPP/(27180:27180): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:06:26:372 logPP/(27180:27180): Se envia el codigo al Kernel
+[TRACE] 01:06:26:372 logPP/(27180:27180): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 01:06:26:372 logPP/(27180:27180): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:06:26:372 logPP/(27180:27180): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 01:07:06:142 logPP/(27180:27180): El Kernel mando imprimir '17'
+[INFO] 01:07:06:897 logPP/(27180:27180): El Kernel mando imprimir '22'
+[INFO] 01:07:07:558 logPP/(27180:27180): El Kernel mando imprimir 'Nico Putita'
+[INFO] 01:07:08:261 logPP/(27180:27180): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 01:07:08:261 logPP/(27180:27180): PROCESS SUCCESSFULLY ENDED
+[TRACE] 01:09:17:196 logPP/(27463:27463): Se inicia el Proceso Programa
+[TRACE] 01:09:17:205 logPP/(27463:27463): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:09:17:205 logPP/(27463:27463): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:09:17:205 logPP/(27463:27463): Se envia el codigo al Kernel
+[TRACE] 01:09:17:205 logPP/(27463:27463): El codigo se envio exitosamente. Tamaño = 120 bytes
+[INFO] 01:09:17:205 logPP/(27463:27463): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:09:17:205 logPP/(27463:27463): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 01:09:49:144 logPP/(27546:27546): Se inicia el Proceso Programa
+[TRACE] 01:09:49:145 logPP/(27546:27546): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:09:49:145 logPP/(27546:27546): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:09:49:145 logPP/(27546:27546): Se envia el codigo al Kernel
+[TRACE] 01:09:49:145 logPP/(27546:27546): El codigo se envio exitosamente. Tamaño = 128 bytes
+[INFO] 01:09:49:145 logPP/(27546:27546): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:09:49:145 logPP/(27546:27546): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 01:09:52:731 logPP/(27463:27463): El Kernel mando imprimir '1'
+[INFO] 01:09:55:723 logPP/(27463:27463): El Kernel mando imprimir '2'
+[INFO] 01:09:58:794 logPP/(27463:27463): El Kernel mando imprimir '3'
+[INFO] 01:10:01:855 logPP/(27463:27463): El Kernel mando imprimir '4'
+[INFO] 01:10:05:21 logPP/(27463:27463): El Kernel mando imprimir '5'
+[INFO] 01:10:07:877 logPP/(27463:27463): El Kernel mando imprimir '6'
+[INFO] 01:10:10:893 logPP/(27463:27463): El Kernel mando imprimir '7'
+[INFO] 01:10:13:973 logPP/(27463:27463): El Kernel mando imprimir '8'
+[INFO] 01:10:17:258 logPP/(27463:27463): El Kernel mando imprimir '9'
+[TRACE] 01:10:19:476 logPP/(27859:27859): Se inicia el Proceso Programa
+[TRACE] 01:10:19:489 logPP/(27859:27859): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:10:19:489 logPP/(27859:27859): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:10:19:489 logPP/(27859:27859): Se envia el codigo al Kernel
+[TRACE] 01:10:19:489 logPP/(27859:27859): El codigo se envio exitosamente. Tamaño = 120 bytes
+[INFO] 01:10:19:489 logPP/(27859:27859): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:10:19:489 logPP/(27859:27859): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 01:10:20:321 logPP/(27463:27463): El Kernel mando imprimir '10'
+[INFO] 01:10:23:190 logPP/(27859:27859): El Kernel mando imprimir '11'
+[INFO] 01:10:26:273 logPP/(27463:27463): El Kernel mando imprimir '12'
+[INFO] 01:10:29:488 logPP/(27859:27859): El Kernel mando imprimir '13'
+[INFO] 01:10:32:539 logPP/(27463:27463): El Kernel mando imprimir '14'
+[INFO] 01:10:35:583 logPP/(27859:27859): El Kernel mando imprimir '15'
+[INFO] 01:10:38:655 logPP/(27463:27463): El Kernel mando imprimir '16'
+[INFO] 01:10:41:689 logPP/(27859:27859): El Kernel mando imprimir '17'
+[INFO] 01:10:44:670 logPP/(27463:27463): El Kernel mando imprimir '18'
+[INFO] 01:10:47:522 logPP/(27859:27859): El Kernel mando imprimir '19'
+[INFO] 01:10:50:547 logPP/(27463:27463): El Kernel mando imprimir '20'
+[INFO] 01:10:53:556 logPP/(27859:27859): El Kernel mando imprimir '21'
+[INFO] 01:10:56:583 logPP/(27463:27463): El Kernel mando imprimir '22'
+[INFO] 01:10:59:603 logPP/(27859:27859): El Kernel mando imprimir '23'
+[INFO] 01:11:02:613 logPP/(27463:27463): El Kernel mando imprimir '24'
+[INFO] 01:11:05:452 logPP/(27859:27859): El Kernel mando imprimir '25'
+[INFO] 01:11:08:803 logPP/(27463:27463): El Kernel mando imprimir '26'
+[INFO] 01:11:11:878 logPP/(27859:27859): El Kernel mando imprimir '27'
+[INFO] 01:11:14:881 logPP/(27463:27463): El Kernel mando imprimir '28'
+[INFO] 01:11:17:921 logPP/(27859:27859): El Kernel mando imprimir '29'
+[INFO] 01:11:20:948 logPP/(27463:27463): El Kernel mando imprimir '30'
+[INFO] 01:11:23:907 logPP/(27859:27859): El Kernel mando imprimir '31'
+[TRACE] 01:11:24:278 logPP/(28469:28469): Se inicia el Proceso Programa
+[TRACE] 01:11:24:285 logPP/(28469:28469): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:11:24:285 logPP/(28469:28469): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:11:24:285 logPP/(28469:28469): Se envia el codigo al Kernel
+[TRACE] 01:11:24:285 logPP/(28469:28469): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 01:11:24:285 logPP/(28469:28469): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:11:24:285 logPP/(28469:28469): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 01:11:26:866 logPP/(27463:27463): El Kernel mando imprimir '32'
+[INFO] 01:11:29:910 logPP/(27859:27859): El Kernel mando imprimir '33'
+[INFO] 01:11:32:822 logPP/(27463:27463): El Kernel mando imprimir '34'
+[INFO] 01:11:35:927 logPP/(27859:27859): El Kernel mando imprimir '35'
+[INFO] 01:11:38:823 logPP/(27463:27463): El Kernel mando imprimir '36'
+[INFO] 01:11:41:887 logPP/(27859:27859): El Kernel mando imprimir '37'
+[INFO] 01:11:44:941 logPP/(27463:27463): El Kernel mando imprimir '38'
+[INFO] 01:11:47:971 logPP/(27859:27859): El Kernel mando imprimir '39'
+[INFO] 01:11:50:977 logPP/(27463:27463): El Kernel mando imprimir '40'
+[INFO] 01:11:54:56 logPP/(27859:27859): El Kernel mando imprimir '41'
+[INFO] 01:11:57:91 logPP/(27463:27463): El Kernel mando imprimir '42'
+[INFO] 01:12:00:129 logPP/(27859:27859): El Kernel mando imprimir '43'
+[INFO] 01:12:03:126 logPP/(27463:27463): El Kernel mando imprimir '44'
+[INFO] 01:12:05:967 logPP/(27859:27859): El Kernel mando imprimir '45'
+[INFO] 01:12:08:2 logPP/(27463:27463): El Kernel mando imprimir '46'
+[INFO] 01:12:12:4 logPP/(27859:27859): El Kernel mando imprimir '47'
+[INFO] 01:12:15:52 logPP/(27463:27463): El Kernel mando imprimir '48'
+[INFO] 01:12:18:45 logPP/(27859:27859): El Kernel mando imprimir '49'
+[INFO] 01:12:21:40 logPP/(27463:27463): El Kernel mando imprimir '50'
+[INFO] 01:12:24:105 logPP/(27859:27859): El Kernel mando imprimir '51'
+[INFO] 01:12:27:137 logPP/(27463:27463): El Kernel mando imprimir '52'
+[INFO] 01:12:29:977 logPP/(27859:27859): El Kernel mando imprimir '53'
+[INFO] 01:12:33:9 logPP/(27463:27463): El Kernel mando imprimir '54'
+[INFO] 01:12:35:6 logPP/(27859:27859): El Kernel mando imprimir '55'
+[INFO] 01:12:39:51 logPP/(27463:27463): El Kernel mando imprimir '56'
+[INFO] 01:12:42:96 logPP/(27859:27859): El Kernel mando imprimir '57'
+[INFO] 01:12:45:122 logPP/(27463:27463): El Kernel mando imprimir '58'
+[INFO] 01:12:48:162 logPP/(27859:27859): El Kernel mando imprimir '59'
+[INFO] 01:12:51:229 logPP/(27463:27463): El Kernel mando imprimir '60'
+[INFO] 01:12:54:231 logPP/(27859:27859): El Kernel mando imprimir '61'
+[INFO] 01:12:57:329 logPP/(27463:27463): El Kernel mando imprimir '62'
+[INFO] 01:13:00:311 logPP/(27859:27859): El Kernel mando imprimir '63'
+[INFO] 01:13:03:384 logPP/(27463:27463): El Kernel mando imprimir '64'
+[INFO] 01:13:06:411 logPP/(27859:27859): El Kernel mando imprimir '65'
+[INFO] 01:13:12:323 logPP/(28469:28469): El Kernel mando imprimir '1'
+[INFO] 01:13:14:752 logPP/(28469:28469): El Kernel mando imprimir '1'
+[INFO] 01:13:42:785 logPP/(28469:28469): El Kernel mando imprimir '   Hola Mundo!'
+[INFO] 01:13:46:384 logPP/(28469:28469): El Kernel mando imprimir '3'
+[INFO] 01:13:47:866 logPP/(28469:28469): El Kernel mando imprimir 'Bye'
+[INFO] 01:13:49:588 logPP/(28469:28469): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 01:13:49:589 logPP/(28469:28469): PROCESS SUCCESSFULLY ENDED
+[TRACE] 01:23:27:434 logPP/(29518:29518): Se inicia el Proceso Programa
+[TRACE] 01:23:27:440 logPP/(29518:29518): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 01:23:27:440 logPP/(29518:29518): Se pide permiso para enviar codigo al Kernel
+[TRACE] 01:23:27:440 logPP/(29518:29518): Se envia el codigo al Kernel
+[TRACE] 01:23:27:440 logPP/(29518:29518): El codigo se envio exitosamente. Tamaño = 111 bytes
+[INFO] 01:23:27:440 logPP/(29518:29518): Se envio el codigo, a la espera de impresiones
+[WARNING] 01:23:27:440 logPP/(29518:29518): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 01:23:29:391 logPP/(29518:29518): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 01:23:29:391 logPP/(29518:29518): PROCESS SUCCESSFULLY ENDED
+[TRACE] 02:50:54:758 logPP/(30887:30887): Se inicia el Proceso Programa
+[TRACE] 02:50:54:764 logPP/(30887:30887): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 02:50:54:764 logPP/(30887:30887): Se pide permiso para enviar codigo al Kernel
+[TRACE] 02:50:54:764 logPP/(30887:30887): Se envia el codigo al Kernel
+[TRACE] 02:50:54:764 logPP/(30887:30887): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 02:50:54:764 logPP/(30887:30887): Se envio el codigo, a la espera de impresiones
+[WARNING] 02:50:54:764 logPP/(30887:30887): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 02:51:18:505 logPP/(30955:30955): Se inicia el Proceso Programa
+[TRACE] 02:51:18:507 logPP/(30955:30955): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 02:51:18:507 logPP/(30955:30955): Se pide permiso para enviar codigo al Kernel
+[TRACE] 02:51:18:507 logPP/(30955:30955): Se envia el codigo al Kernel
+[TRACE] 02:51:18:507 logPP/(30955:30955): El codigo se envio exitosamente. Tamaño = 130 bytes
+[INFO] 02:51:18:507 logPP/(30955:30955): Se envio el codigo, a la espera de impresiones
+[WARNING] 02:51:18:507 logPP/(30955:30955): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 02:55:01:626 logPP/(31173:31173): Se inicia el Proceso Programa
+[TRACE] 02:55:01:634 logPP/(31173:31173): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 02:55:01:634 logPP/(31173:31173): Se pide permiso para enviar codigo al Kernel
+[TRACE] 02:55:01:634 logPP/(31173:31173): Se envia el codigo al Kernel
+[TRACE] 02:55:01:634 logPP/(31173:31173): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 02:55:01:634 logPP/(31173:31173): Se envio el codigo, a la espera de impresiones
+[WARNING] 02:55:01:634 logPP/(31173:31173): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:00:31:656 logPP/(31600:31600): Se inicia el Proceso Programa
+[TRACE] 03:00:31:659 logPP/(31600:31600): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:00:31:659 logPP/(31600:31600): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:00:31:659 logPP/(31600:31600): Se envia el codigo al Kernel
+[TRACE] 03:00:31:659 logPP/(31600:31600): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 03:00:31:659 logPP/(31600:31600): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:00:31:659 logPP/(31600:31600): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:00:42:533 logPP/(31674:31674): Se inicia el Proceso Programa
+[TRACE] 03:00:42:534 logPP/(31674:31674): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:00:42:534 logPP/(31674:31674): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:00:42:534 logPP/(31674:31674): Se envia el codigo al Kernel
+[TRACE] 03:00:42:534 logPP/(31674:31674): El codigo se envio exitosamente. Tamaño = 120 bytes
+[INFO] 03:00:42:534 logPP/(31674:31674): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:00:42:534 logPP/(31674:31674): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:00:55:713 logPP/(31747:31747): Se inicia el Proceso Programa
+[TRACE] 03:00:55:720 logPP/(31747:31747): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:00:55:720 logPP/(31747:31747): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:00:55:720 logPP/(31747:31747): Se envia el codigo al Kernel
+[TRACE] 03:00:55:721 logPP/(31747:31747): El codigo se envio exitosamente. Tamaño = 310 bytes
+[INFO] 03:00:55:721 logPP/(31747:31747): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:00:55:721 logPP/(31747:31747): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:01:03:523 logPP/(31821:31821): Se inicia el Proceso Programa
+[TRACE] 03:01:03:530 logPP/(31821:31821): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:01:03:530 logPP/(31821:31821): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:01:03:530 logPP/(31821:31821): Se envia el codigo al Kernel
+[TRACE] 03:01:03:531 logPP/(31821:31821): El codigo se envio exitosamente. Tamaño = 128 bytes
+[INFO] 03:01:03:531 logPP/(31821:31821): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:01:03:531 logPP/(31821:31821): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:01:18:117 logPP/(31891:31891): Se inicia el Proceso Programa
+[TRACE] 03:01:18:118 logPP/(31891:31891): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:01:18:118 logPP/(31891:31891): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:01:18:118 logPP/(31891:31891): Se envia el codigo al Kernel
+[TRACE] 03:01:18:118 logPP/(31891:31891): El codigo se envio exitosamente. Tamaño = 111 bytes
+[INFO] 03:01:18:118 logPP/(31891:31891): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:01:18:118 logPP/(31891:31891): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 03:01:45:621 logPP/(31600:31600): El Kernel mando imprimir '1'
+[INFO] 03:01:45:808 logPP/(31747:31747): El Kernel mando imprimir '50'
+[INFO] 03:01:48:68 logPP/(31600:31600): El Kernel mando imprimir '1'
+[INFO] 03:01:49:592 logPP/(31747:31747): El Kernel mando imprimir '49'
+[INFO] 03:01:53:504 logPP/(31747:31747): El Kernel mando imprimir '48'
+[INFO] 03:01:57:329 logPP/(31747:31747): El Kernel mando imprimir '47'
+[INFO] 03:02:01:232 logPP/(31747:31747): El Kernel mando imprimir '46'
+[INFO] 03:02:05:52 logPP/(31747:31747): El Kernel mando imprimir '45'
+[INFO] 03:02:08:968 logPP/(31747:31747): El Kernel mando imprimir '44'
+[INFO] 03:02:12:792 logPP/(31747:31747): El Kernel mando imprimir '43'
+[INFO] 03:02:16:133 logPP/(31600:31600): El Kernel mando imprimir '   Hola Mundo!'
+[INFO] 03:02:16:685 logPP/(31747:31747): El Kernel mando imprimir '42'
+[INFO] 03:02:19:736 logPP/(31600:31600): El Kernel mando imprimir '3'
+[INFO] 03:02:20:504 logPP/(31747:31747): El Kernel mando imprimir '41'
+[INFO] 03:02:21:218 logPP/(31600:31600): El Kernel mando imprimir 'Bye'
+[INFO] 03:02:22:977 logPP/(31600:31600): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:02:22:977 logPP/(31600:31600): PROCESS SUCCESSFULLY ENDED
+[INFO] 03:02:24:417 logPP/(31747:31747): El Kernel mando imprimir '40'
+[INFO] 03:02:26:478 logPP/(31674:31674): El Kernel mando imprimir '1'
+[INFO] 03:02:27:335 logPP/(31747:31747): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:02:27:335 logPP/(31747:31747): PROCESS SUCCESSFULLY ENDED
+[INFO] 03:02:29:182 logPP/(31891:31891): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:02:29:182 logPP/(31891:31891): PROCESS SUCCESSFULLY ENDED
+[INFO] 03:02:29:594 logPP/(31674:31674): El Kernel mando imprimir '2'
+[INFO] 03:02:32:535 logPP/(31674:31674): El Kernel mando imprimir '3'
+[INFO] 03:02:35:583 logPP/(31674:31674): El Kernel mando imprimir '4'
+[INFO] 03:02:38:637 logPP/(31674:31674): El Kernel mando imprimir '5'
+[INFO] 03:02:41:410 logPP/(31674:31674): El Kernel mando imprimir '6'
+[INFO] 03:02:44:370 logPP/(31674:31674): El Kernel mando imprimir '7'
+[INFO] 03:02:47:451 logPP/(31674:31674): El Kernel mando imprimir '8'
+[INFO] 03:02:50:462 logPP/(31674:31674): El Kernel mando imprimir '9'
+[INFO] 03:02:53:500 logPP/(31674:31674): El Kernel mando imprimir '10'
+[INFO] 03:02:56:527 logPP/(31674:31674): El Kernel mando imprimir '11'
+[INFO] 03:02:59:479 logPP/(31674:31674): El Kernel mando imprimir '12'
+[INFO] 03:03:02:594 logPP/(31674:31674): El Kernel mando imprimir '13'
+[INFO] 03:03:05:119 logPP/(31674:31674): El Kernel mando imprimir '****Cpu desconectado durante ejecucion****'
+[INFO] 03:03:05:119 logPP/(31674:31674): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:03:05:119 logPP/(31674:31674): PROCESS SUCCESSFULLY ENDED
+[TRACE] 03:18:35:769 logPP/(417:417): Se inicia el Proceso Programa
+[TRACE] 03:18:35:773 logPP/(417:417): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:18:35:773 logPP/(417:417): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:18:35:773 logPP/(417:417): Se envia el codigo al Kernel
+[TRACE] 03:18:35:773 logPP/(417:417): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 03:18:35:773 logPP/(417:417): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:18:35:773 logPP/(417:417): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:18:45:129 logPP/(500:500): Se inicia el Proceso Programa
+[TRACE] 03:18:45:132 logPP/(500:500): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:18:45:133 logPP/(500:500): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:18:45:133 logPP/(500:500): Se envia el codigo al Kernel
+[TRACE] 03:18:45:133 logPP/(500:500): El codigo se envio exitosamente. Tamaño = 310 bytes
+[INFO] 03:18:45:133 logPP/(500:500): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:18:45:133 logPP/(500:500): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:18:51:211 logPP/(575:575): Se inicia el Proceso Programa
+[TRACE] 03:18:51:216 logPP/(575:575): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:18:51:216 logPP/(575:575): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:18:51:216 logPP/(575:575): Se envia el codigo al Kernel
+[TRACE] 03:18:51:216 logPP/(575:575): El codigo se envio exitosamente. Tamaño = 130 bytes
+[INFO] 03:18:51:216 logPP/(575:575): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:18:51:216 logPP/(575:575): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:19:16:622 logPP/(785:785): Se inicia el Proceso Programa
+[TRACE] 03:19:16:627 logPP/(785:785): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:19:16:627 logPP/(785:785): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:19:16:627 logPP/(785:785): Se envia el codigo al Kernel
+[TRACE] 03:19:16:627 logPP/(785:785): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 03:19:16:627 logPP/(785:785): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:19:16:627 logPP/(785:785): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 03:19:29:653 logPP/(417:417): El Kernel mando imprimir '1'
+[INFO] 03:19:29:905 logPP/(500:500): El Kernel mando imprimir '50'
+[INFO] 03:19:33:716 logPP/(417:417): El Kernel mando imprimir '1'
+[INFO] 03:19:35:790 logPP/(575:575): El Kernel mando imprimir '4'
+[INFO] 03:19:36:204 logPP/(500:500): El Kernel mando imprimir '49'
+[INFO] 03:19:39:473 logPP/(575:575): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:19:39:473 logPP/(575:575): PROCESS SUCCESSFULLY ENDED
+[INFO] 03:19:43:561 logPP/(785:785): El Kernel mando imprimir '1'
+[INFO] 03:19:44:505 logPP/(500:500): El Kernel mando imprimir '48'
+[INFO] 03:19:47:44 logPP/(785:785): El Kernel mando imprimir '1'
+[INFO] 03:19:49:312 logPP/(500:500): El Kernel mando imprimir '47'
+[INFO] 03:19:53:193 logPP/(500:500): El Kernel mando imprimir '46'
+[INFO] 03:19:57:12 logPP/(500:500): El Kernel mando imprimir '45'
+[INFO] 03:20:00:884 logPP/(500:500): El Kernel mando imprimir '44'
+[INFO] 03:20:04:709 logPP/(500:500): El Kernel mando imprimir '43'
+[INFO] 03:20:07:206 logPP/(417:417): El Kernel mando imprimir '   Hola Mundo!'
+[INFO] 03:20:08:588 logPP/(500:500): El Kernel mando imprimir '42'
+[INFO] 03:20:10:804 logPP/(417:417): El Kernel mando imprimir '3'
+[INFO] 03:20:12:285 logPP/(417:417): El Kernel mando imprimir 'Bye'
+[INFO] 03:20:12:412 logPP/(500:500): El Kernel mando imprimir '41'
+[INFO] 03:20:14:4 logPP/(417:417): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:20:14:4 logPP/(417:417): PROCESS SUCCESSFULLY ENDED
+[INFO] 03:20:16:293 logPP/(500:500): El Kernel mando imprimir '40'
+[INFO] 03:20:19:172 logPP/(500:500): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:20:19:172 logPP/(500:500): PROCESS SUCCESSFULLY ENDED
+[INFO] 03:20:27:321 logPP/(785:785): El Kernel mando imprimir '   Hola Mundo!'
+[INFO] 03:20:30:920 logPP/(785:785): El Kernel mando imprimir '3'
+[INFO] 03:20:32:400 logPP/(785:785): El Kernel mando imprimir 'Bye'
+[INFO] 03:20:34:124 logPP/(785:785): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 03:20:34:124 logPP/(785:785): PROCESS SUCCESSFULLY ENDED
+[TRACE] 03:21:14:585 logPP/(1238:1238): Se inicia el Proceso Programa
+[TRACE] 03:21:14:590 logPP/(1238:1238): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:21:14:590 logPP/(1238:1238): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:21:14:590 logPP/(1238:1238): Se envia el codigo al Kernel
+[TRACE] 03:21:14:590 logPP/(1238:1238): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 03:21:14:590 logPP/(1238:1238): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:21:14:590 logPP/(1238:1238): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:21:29:336 logPP/(1318:1318): Se inicia el Proceso Programa
+[TRACE] 03:21:29:340 logPP/(1318:1318): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:21:29:340 logPP/(1318:1318): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:21:29:340 logPP/(1318:1318): Se envia el codigo al Kernel
+[TRACE] 03:21:29:340 logPP/(1318:1318): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 03:21:29:340 logPP/(1318:1318): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:21:29:340 logPP/(1318:1318): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:21:36:252 logPP/(1397:1397): Se inicia el Proceso Programa
+[TRACE] 03:21:36:259 logPP/(1397:1397): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:21:36:259 logPP/(1397:1397): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:21:36:259 logPP/(1397:1397): Se envia el codigo al Kernel
+[TRACE] 03:21:36:259 logPP/(1397:1397): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 03:21:36:260 logPP/(1397:1397): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:21:36:260 logPP/(1397:1397): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:21:43:588 logPP/(1526:1526): Se inicia el Proceso Programa
+[TRACE] 03:21:43:592 logPP/(1526:1526): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:21:43:592 logPP/(1526:1526): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:21:43:592 logPP/(1526:1526): Se envia el codigo al Kernel
+[TRACE] 03:21:43:592 logPP/(1526:1526): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 03:21:43:592 logPP/(1526:1526): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:21:43:592 logPP/(1526:1526): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 03:21:48:727 logPP/(1605:1605): Se inicia el Proceso Programa
+[TRACE] 03:21:48:732 logPP/(1605:1605): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 03:21:48:732 logPP/(1605:1605): Se pide permiso para enviar codigo al Kernel
+[TRACE] 03:21:48:732 logPP/(1605:1605): Se envia el codigo al Kernel
+[TRACE] 03:21:48:732 logPP/(1605:1605): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 03:21:48:732 logPP/(1605:1605): Se envio el codigo, a la espera de impresiones
+[WARNING] 03:21:48:732 logPP/(1605:1605): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 09:38:57:503 logPP/(2760:2760): Se inicia el Proceso Programa
+[TRACE] 09:38:57:506 logPP/(2760:2760): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:38:57:506 logPP/(2760:2760): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:38:57:506 logPP/(2760:2760): Se envia el codigo al Kernel
+[TRACE] 09:38:57:507 logPP/(2760:2760): El codigo se envio exitosamente. Tamaño = 111 bytes
+[INFO] 09:38:57:507 logPP/(2760:2760): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:38:57:507 logPP/(2760:2760): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:38:59:312 logPP/(2760:2760): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 09:38:59:312 logPP/(2760:2760): PROCESS SUCCESSFULLY ENDED
+[TRACE] 09:39:40:104 logPP/(2784:2784): Se inicia el Proceso Programa
+[TRACE] 09:39:40:111 logPP/(2784:2784): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:39:40:112 logPP/(2784:2784): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:39:40:112 logPP/(2784:2784): Se envia el codigo al Kernel
+[TRACE] 09:39:40:112 logPP/(2784:2784): El codigo se envio exitosamente. Tamaño = 246 bytes
+[INFO] 09:39:40:112 logPP/(2784:2784): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:39:40:112 logPP/(2784:2784): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:40:58:680 logPP/(2784:2784): El Kernel mando imprimir '1'
+[INFO] 09:41:01:720 logPP/(2784:2784): El Kernel mando imprimir '2'
+[INFO] 09:41:04:763 logPP/(2784:2784): El Kernel mando imprimir '3'
+[INFO] 09:41:07:802 logPP/(2784:2784): El Kernel mando imprimir '4'
+[INFO] 09:41:10:846 logPP/(2784:2784): El Kernel mando imprimir '5'
+[INFO] 09:41:13:879 logPP/(2784:2784): El Kernel mando imprimir '6'
+[INFO] 09:41:16:920 logPP/(2784:2784): El Kernel mando imprimir '7'
+[INFO] 09:41:19:957 logPP/(2784:2784): El Kernel mando imprimir '8'
+[INFO] 09:41:23:6 logPP/(2784:2784): El Kernel mando imprimir '9'
+[INFO] 09:41:26:53 logPP/(2784:2784): El Kernel mando imprimir '10'
+[INFO] 09:41:29:94 logPP/(2784:2784): El Kernel mando imprimir '11'
+[INFO] 09:41:32:146 logPP/(2784:2784): El Kernel mando imprimir '12'
+[INFO] 09:41:35:193 logPP/(2784:2784): El Kernel mando imprimir '13'
+[INFO] 09:41:38:232 logPP/(2784:2784): El Kernel mando imprimir '14'
+[INFO] 09:41:41:269 logPP/(2784:2784): El Kernel mando imprimir '15'
+[INFO] 09:41:44:308 logPP/(2784:2784): El Kernel mando imprimir '16'
+[INFO] 09:41:47:350 logPP/(2784:2784): El Kernel mando imprimir '17'
+[INFO] 09:41:50:395 logPP/(2784:2784): El Kernel mando imprimir '18'
+[INFO] 09:41:53:431 logPP/(2784:2784): El Kernel mando imprimir '19'
+[INFO] 09:41:56:485 logPP/(2784:2784): El Kernel mando imprimir '20'
+[INFO] 09:41:58:672 logPP/(2784:2784): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 09:41:58:672 logPP/(2784:2784): PROCESS SUCCESSFULLY ENDED
+[TRACE] 09:43:39:190 logPP/(3086:3086): Se inicia el Proceso Programa
+[TRACE] 09:43:39:192 logPP/(3086:3086): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:43:39:192 logPP/(3086:3086): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:43:39:192 logPP/(3086:3086): Se envia el codigo al Kernel
+[TRACE] 09:43:39:192 logPP/(3086:3086): El codigo se envio exitosamente. Tamaño = 484 bytes
+[INFO] 09:43:39:192 logPP/(3086:3086): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:43:39:192 logPP/(3086:3086): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:43:42:133 logPP/(3086:3086): El Kernel mando imprimir '0'
+[INFO] 09:43:44:433 logPP/(3086:3086): El Kernel mando imprimir '0'
+[INFO] 09:43:46:837 logPP/(3086:3086): El Kernel mando imprimir '0'
+[INFO] 09:43:49:140 logPP/(3086:3086): El Kernel mando imprimir '0'
+[INFO] 09:43:51:529 logPP/(3086:3086): El Kernel mando imprimir '0'
+[INFO] 09:43:53:631 logPP/(3086:3086): El Kernel mando imprimir 'Fin'
+[INFO] 09:43:54:335 logPP/(3086:3086): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 09:43:54:335 logPP/(3086:3086): PROCESS SUCCESSFULLY ENDED
+[TRACE] 09:45:11:49 logPP/(3142:3142): Se inicia el Proceso Programa
+[TRACE] 09:45:11:57 logPP/(3142:3142): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:45:11:57 logPP/(3142:3142): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:45:11:57 logPP/(3142:3142): Se envia el codigo al Kernel
+[TRACE] 09:45:11:57 logPP/(3142:3142): El codigo se envio exitosamente. Tamaño = 120 bytes
+[INFO] 09:45:11:57 logPP/(3142:3142): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:45:11:57 logPP/(3142:3142): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 09:45:32:194 logPP/(3162:3162): Se inicia el Proceso Programa
+[TRACE] 09:45:32:201 logPP/(3162:3162): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:45:32:201 logPP/(3162:3162): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:45:32:201 logPP/(3162:3162): Se envia el codigo al Kernel
+[TRACE] 09:45:32:201 logPP/(3162:3162): El codigo se envio exitosamente. Tamaño = 128 bytes
+[INFO] 09:45:32:201 logPP/(3162:3162): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:45:32:201 logPP/(3162:3162): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:45:36:514 logPP/(3142:3142): El Kernel mando imprimir '1'
+[INFO] 09:45:42:491 logPP/(3142:3142): El Kernel mando imprimir '2'
+[INFO] 09:45:48:667 logPP/(3142:3142): El Kernel mando imprimir '3'
+[INFO] 09:45:53:77 logPP/(3142:3142): El Kernel mando imprimir '4'
+[INFO] 09:45:56:255 logPP/(3142:3142): El Kernel mando imprimir '5'
+[INFO] 09:45:59:522 logPP/(3142:3142): El Kernel mando imprimir '6'
+[INFO] 09:46:02:552 logPP/(3142:3142): El Kernel mando imprimir '7'
+[INFO] 09:46:05:589 logPP/(3142:3142): El Kernel mando imprimir '8'
+[INFO] 09:46:08:680 logPP/(3142:3142): El Kernel mando imprimir '9'
+[INFO] 09:46:11:761 logPP/(3142:3142): El Kernel mando imprimir '10'
+[INFO] 09:46:14:812 logPP/(3142:3142): El Kernel mando imprimir '11'
+[INFO] 09:46:17:837 logPP/(3142:3142): El Kernel mando imprimir '12'
+[INFO] 09:46:20:954 logPP/(3142:3142): El Kernel mando imprimir '13'
+[INFO] 09:46:23:992 logPP/(3142:3142): El Kernel mando imprimir '14'
+[INFO] 09:46:27:9 logPP/(3142:3142): El Kernel mando imprimir '15'
+[INFO] 09:46:30:302 logPP/(3142:3142): El Kernel mando imprimir '16'
+[INFO] 09:46:33:599 logPP/(3142:3142): El Kernel mando imprimir '17'
+[INFO] 09:46:36:553 logPP/(3142:3142): El Kernel mando imprimir '18'
+[INFO] 09:46:39:731 logPP/(3142:3142): El Kernel mando imprimir '19'
+[INFO] 09:46:42:714 logPP/(3142:3142): El Kernel mando imprimir '20'
+[INFO] 09:46:45:816 logPP/(3142:3142): El Kernel mando imprimir '21'
+[INFO] 09:46:48:903 logPP/(3142:3142): El Kernel mando imprimir '22'
+[INFO] 09:46:51:867 logPP/(3142:3142): El Kernel mando imprimir '23'
+[INFO] 09:46:56:760 logPP/(3142:3142): El Kernel mando imprimir '24'
+[INFO] 09:47:02:890 logPP/(3142:3142): El Kernel mando imprimir '25'
+[INFO] 09:47:09:4 logPP/(3142:3142): El Kernel mando imprimir '26'
+[INFO] 09:47:15:100 logPP/(3142:3142): El Kernel mando imprimir '27'
+[TRACE] 09:49:13:750 logPP/(4059:4059): Se inicia el Proceso Programa
+[TRACE] 09:49:13:752 logPP/(4059:4059): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:49:13:752 logPP/(4059:4059): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:49:13:752 logPP/(4059:4059): Se envia el codigo al Kernel
+[TRACE] 09:49:13:752 logPP/(4059:4059): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:49:13:752 logPP/(4059:4059): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:49:13:752 logPP/(4059:4059): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:49:17:245 logPP/(4059:4059): El Kernel mando imprimir '1'
+[INFO] 09:49:19:809 logPP/(4059:4059): El Kernel mando imprimir '1'
+[TRACE] 09:51:22:977 logPP/(4106:4106): Se inicia el Proceso Programa
+[TRACE] 09:51:22:984 logPP/(4106:4106): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:51:22:984 logPP/(4106:4106): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:51:22:984 logPP/(4106:4106): Se envia el codigo al Kernel
+[TRACE] 09:51:22:984 logPP/(4106:4106): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:51:22:984 logPP/(4106:4106): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:51:22:984 logPP/(4106:4106): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:51:30:345 logPP/(4106:4106): El Kernel mando imprimir '1'
+[INFO] 09:51:32:833 logPP/(4106:4106): El Kernel mando imprimir '1'
+[TRACE] 09:53:11:58 logPP/(4160:4160): Se inicia el Proceso Programa
+[TRACE] 09:53:11:63 logPP/(4160:4160): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:53:11:63 logPP/(4160:4160): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:53:11:63 logPP/(4160:4160): Se envia el codigo al Kernel
+[TRACE] 09:53:11:63 logPP/(4160:4160): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:53:11:63 logPP/(4160:4160): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:53:11:63 logPP/(4160:4160): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:53:14:575 logPP/(4160:4160): El Kernel mando imprimir '1'
+[TRACE] 09:55:09:442 logPP/(4263:4263): Se inicia el Proceso Programa
+[TRACE] 09:55:09:448 logPP/(4263:4263): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:55:09:448 logPP/(4263:4263): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:55:09:449 logPP/(4263:4263): Se envia el codigo al Kernel
+[TRACE] 09:55:09:449 logPP/(4263:4263): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:55:09:449 logPP/(4263:4263): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:55:09:449 logPP/(4263:4263): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:58:28:937 logPP/(4263:4263): El Kernel mando imprimir '1'
+[TRACE] 09:58:40:961 logPP/(4483:4483): Se inicia el Proceso Programa
+[TRACE] 09:58:40:962 logPP/(4483:4483): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:58:40:962 logPP/(4483:4483): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:58:40:962 logPP/(4483:4483): Se envia el codigo al Kernel
+[TRACE] 09:58:40:962 logPP/(4483:4483): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:58:40:962 logPP/(4483:4483): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:58:40:962 logPP/(4483:4483): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:58:44:401 logPP/(4483:4483): El Kernel mando imprimir '1'
+[TRACE] 09:58:45:907 logPP/(4509:4509): Se inicia el Proceso Programa
+[TRACE] 09:58:45:911 logPP/(4509:4509): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:58:45:911 logPP/(4509:4509): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:58:45:911 logPP/(4509:4509): Se envia el codigo al Kernel
+[TRACE] 09:58:45:912 logPP/(4509:4509): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:58:45:912 logPP/(4509:4509): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:58:45:912 logPP/(4509:4509): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 09:59:04:235 logPP/(4509:4509): El Kernel mando imprimir '1'
+[INFO] 09:59:06:660 logPP/(4509:4509): El Kernel mando imprimir '1'
+[TRACE] 09:59:28:134 logPP/(4558:4558): Se inicia el Proceso Programa
+[TRACE] 09:59:28:141 logPP/(4558:4558): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 09:59:28:141 logPP/(4558:4558): Se pide permiso para enviar codigo al Kernel
+[TRACE] 09:59:28:141 logPP/(4558:4558): Se envia el codigo al Kernel
+[TRACE] 09:59:28:141 logPP/(4558:4558): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 09:59:28:141 logPP/(4558:4558): Se envio el codigo, a la espera de impresiones
+[WARNING] 09:59:28:141 logPP/(4558:4558): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:03:09:672 logPP/(4558:4558): El Kernel mando imprimir '1'
+[INFO] 10:03:12:148 logPP/(4558:4558): El Kernel mando imprimir '1'
+[TRACE] 10:03:15:367 logPP/(4708:4708): Se inicia el Proceso Programa
+[TRACE] 10:03:15:368 logPP/(4708:4708): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:03:15:368 logPP/(4708:4708): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:03:15:368 logPP/(4708:4708): Se envia el codigo al Kernel
+[TRACE] 10:03:15:368 logPP/(4708:4708): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 10:03:15:368 logPP/(4708:4708): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:03:15:369 logPP/(4708:4708): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:03:19:95 logPP/(4708:4708): El Kernel mando imprimir '1'
+[INFO] 10:03:21:555 logPP/(4708:4708): El Kernel mando imprimir '1'
+[INFO] 10:03:49:641 logPP/(4708:4708): El Kernel mando imprimir '   Hola Mundo!'
+[TRACE] 10:03:55:774 logPP/(4767:4767): Se inicia el Proceso Programa
+[TRACE] 10:03:55:780 logPP/(4767:4767): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:03:55:780 logPP/(4767:4767): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:03:55:780 logPP/(4767:4767): Se envia el codigo al Kernel
+[TRACE] 10:03:55:780 logPP/(4767:4767): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 10:03:55:781 logPP/(4767:4767): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:03:55:781 logPP/(4767:4767): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:03:59:531 logPP/(4767:4767): El Kernel mando imprimir '1'
+[INFO] 10:04:01:0 logPP/(4767:4767): El Kernel mando imprimir '1'
+[TRACE] 10:04:07:384 logPP/(4800:4800): Se inicia el Proceso Programa
+[TRACE] 10:04:07:391 logPP/(4800:4800): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:04:07:391 logPP/(4800:4800): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:04:07:391 logPP/(4800:4800): Se envia el codigo al Kernel
+[TRACE] 10:04:07:391 logPP/(4800:4800): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 10:04:07:391 logPP/(4800:4800): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:04:07:391 logPP/(4800:4800): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:04:11:153 logPP/(4800:4800): El Kernel mando imprimir '1'
+[INFO] 10:04:13:692 logPP/(4800:4800): El Kernel mando imprimir '1'
+[TRACE] 10:04:16:181 logPP/(4834:4834): Se inicia el Proceso Programa
+[TRACE] 10:04:16:188 logPP/(4834:4834): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:04:16:188 logPP/(4834:4834): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:04:16:188 logPP/(4834:4834): Se envia el codigo al Kernel
+[TRACE] 10:04:16:188 logPP/(4834:4834): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 10:04:16:188 logPP/(4834:4834): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:04:16:188 logPP/(4834:4834): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:04:19:868 logPP/(4834:4834): El Kernel mando imprimir '1'
+[TRACE] 10:04:22:863 logPP/(4865:4865): Se inicia el Proceso Programa
+[TRACE] 10:04:22:877 logPP/(4865:4865): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:04:22:877 logPP/(4865:4865): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:04:22:878 logPP/(4865:4865): Se envia el codigo al Kernel
+[TRACE] 10:04:22:878 logPP/(4865:4865): El codigo se envio exitosamente. Tamaño = 605 bytes
+[INFO] 10:04:22:878 logPP/(4865:4865): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:04:22:878 logPP/(4865:4865): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:04:26:621 logPP/(4865:4865): El Kernel mando imprimir '1'
+[INFO] 10:04:29:152 logPP/(4865:4865): El Kernel mando imprimir '1'
+[TRACE] 10:04:45:40 logPP/(4964:4964): Se inicia el Proceso Programa
+[TRACE] 10:04:45:44 logPP/(4964:4964): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:04:45:44 logPP/(4964:4964): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:04:45:44 logPP/(4964:4964): Se envia el codigo al Kernel
+[TRACE] 10:04:45:44 logPP/(4964:4964): El codigo se envio exitosamente. Tamaño = 130 bytes
+[INFO] 10:04:45:44 logPP/(4964:4964): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:04:45:44 logPP/(4964:4964): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 10:05:00:406 logPP/(5103:5103): Se inicia el Proceso Programa
+[TRACE] 10:05:00:412 logPP/(5103:5103): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:05:00:412 logPP/(5103:5103): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:05:00:412 logPP/(5103:5103): Se envia el codigo al Kernel
+[TRACE] 10:05:00:412 logPP/(5103:5103): El codigo se envio exitosamente. Tamaño = 310 bytes
+[INFO] 10:05:00:412 logPP/(5103:5103): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:05:00:412 logPP/(5103:5103): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 10:05:01:578 logPP/(5112:5112): Se inicia el Proceso Programa
+[TRACE] 10:05:01:583 logPP/(5112:5112): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:05:01:583 logPP/(5112:5112): Se pide permiso para enviar codigo al Kernel
+[TRACE] 10:05:01:583 logPP/(5112:5112): Se envia el codigo al Kernel
+[TRACE] 10:05:01:583 logPP/(5112:5112): El codigo se envio exitosamente. Tamaño = 130 bytes
+[INFO] 10:05:01:583 logPP/(5112:5112): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:05:01:583 logPP/(5112:5112): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[INFO] 10:05:05:52 logPP/(5103:5103): El Kernel mando imprimir '50'
+[INFO] 10:05:11:17 logPP/(5103:5103): El Kernel mando imprimir '49'
+[INFO] 10:05:11:248 logPP/(5112:5112): El Kernel mando imprimir '4'
+[INFO] 10:05:13:156 logPP/(5112:5112): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 10:05:13:156 logPP/(5112:5112): PROCESS SUCCESSFULLY ENDED
+[INFO] 10:05:14:916 logPP/(5103:5103): El Kernel mando imprimir '48'
+[INFO] 10:05:17:617 logPP/(4964:4964): El Kernel mando imprimir '3'
+[INFO] 10:05:18:740 logPP/(5103:5103): El Kernel mando imprimir '47'
+[INFO] 10:05:19:740 logPP/(4964:4964): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 10:05:19:740 logPP/(4964:4964): PROCESS SUCCESSFULLY ENDED
+[INFO] 10:05:22:627 logPP/(5103:5103): El Kernel mando imprimir '46'
+[INFO] 10:05:26:448 logPP/(5103:5103): El Kernel mando imprimir '45'
+[INFO] 10:05:30:339 logPP/(5103:5103): El Kernel mando imprimir '44'
+[INFO] 10:05:34:160 logPP/(5103:5103): El Kernel mando imprimir '43'
+[INFO] 10:05:38:67 logPP/(5103:5103): El Kernel mando imprimir '42'
+[INFO] 10:05:41:887 logPP/(5103:5103): El Kernel mando imprimir '41'
+[INFO] 10:05:45:768 logPP/(5103:5103): El Kernel mando imprimir '40'
+[INFO] 10:05:48:647 logPP/(5103:5103): Se cierra el socket. Fin de comunicacion con el Kernel
+[INFO] 10:05:48:647 logPP/(5103:5103): PROCESS SUCCESSFULLY ENDED
+[TRACE] 10:19:15:250 logPP/(5932:5932): Se inicia el Proceso Programa
+[TRACE] 10:19:15:259 logPP/(5932:5932): Conexion exitosa con el Kernel. Puerto de conexion: 5000
+[TRACE] 10:19:15:259 logPP/(5932:5932): Se pide permiso para enviar codigo al Kernel
+[INFO] 10:19:15:333 logPP/(5932:5932): Se obtiene respuesta OK del Kernel
+[TRACE] 10:19:15:333 logPP/(5932:5932): Se envia el codigo al Kernel
+[TRACE] 10:19:15:333 logPP/(5932:5932): El codigo se envio exitosamente. Tamaño = 133 bytes
+[INFO] 10:19:15:333 logPP/(5932:5932): Se envio el codigo, a la espera de impresiones
+[WARNING] 10:19:15:333 logPP/(5932:5932): Si luego de las impresiones no se recibe la señal el procesoPrograma continuara ejecutandose
+[TRACE] 11:15:42:346 logPP/(2252:2252): Se inicia el Proceso Programa
+[TRACE] 11:16:43:535 logPP/(2260:2260): Se inicia el Proceso Programa
+[TRACE] 11:17:09:702 logPP/(2268:2268): Se inicia el Proceso Programa
